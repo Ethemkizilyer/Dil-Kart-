@@ -94,10 +94,14 @@ h1 {
   transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
   transition: 1s;
+   -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
 }
 
 .kapsa:hover {
   transform: rotateY(180deg);
+
+ 
 }
 
 .ilk {
