@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dil Kartı</title>
+    
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/x-icon" href="logoc.png">
+  </head>
+  <body onclick="myFunction(event)">
+    <h1>DİL KARTI</h1>
+    <div class="a">
+      <div class="v" title="Tek Tık Çiz Çift Tık Sil">
+        <div class="cerceve"></div>
+      </div>
+      <i class="fa-solid fa-angles-left left"></i>
+      <i class="fa-solid fa-angles-right right"></i>
+    </div>
+    <div class="transl">
+        <span class="span">1</span>
+      <div class="ekle">
+        <input
+          class="ing"
+          type="text"
+          placeholder="Yabancı kelime giriniz"
+        /><span>||</span>
+        <input
+          class="tr"
+          type="text"
+          placeholder="Türkçe karşılığını giriniz"
+        />
+      </div>
+      <div class="butt">
+        <button class="eklem">EKLE</button>
+        <button class="sil">SİL</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
