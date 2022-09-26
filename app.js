@@ -98,6 +98,24 @@ cerceve.addEventListener("click", (e) => {
     });
     localStorage.setItem("LOCAL", JSON.stringify(local));
   });
+  e.target.addEventListener("dblclick", (e) => {
+    console.log(e.target.className);
+    sayı.innerText = elf;
+    if (local.length == 0) {
+      alert("Kartınız Kalmadı!!!");
+      elf = 1;
+      a = 0;
+      asd = 0;
+      sayı.innerText = elf;
+    } else {
+      const id = e.target.parentElement.parentElement.getAttribute("id");
+
+      e.target.parentElement.parentElement.remove();
+
+      local = local.filter((ana) => ana.id !== Number(id));
+      localStorage.setItem("LOCAL", JSON.stringify(local));
+    }
+  });
 });
 
 eksil.addEventListener("click", (e) => {
@@ -105,8 +123,7 @@ eksil.addEventListener("click", (e) => {
   if (e.target.classList.contains("sil")) {
     sayı.innerText = elf;
     if (local.length == 0) {
-      //   right.disabled = "";
-      alert("Kart Boş");
+      alert("Kartınız Kalmadı!!!");
       elf = 1;
       a = 0;
       asd = 0;
