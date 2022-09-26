@@ -2,6 +2,7 @@
 
 https://ethemkizilyer.github.io/Kelime-Kart--/
 
+![Animation](https://user-images.githubusercontent.com/106928233/192303896-5306597e-2921-4c96-bf32-8b037dcba2f5.gif)
 
 Education is a Must!
 
@@ -10,3 +11,4 @@ My goal with this project is through the topics that I have seen and understood 
 (Eğitim Şart!
 
 Bu proje ile amacım şuana kadar görmüş ve anlamış olduğum :) konular üzerinden.Küçük bir proje, fakat çok amaçlı kullanılabilir bir hatırlatma kartı(kelime kartıda denilebilir) oluşturmak. Oluşturulan kartları sıra dahilinde görmek ve tamamlanan kartın üzerine tıklayarak tamamlandığını ,çift tıklayarak silinebildiği bir proje yapmaya çalıştım. Ayrıca kartlarınızın local storage de kalıcı olarak bulunduğunu ve siz isteyene kadarda  kaybolmayacağını belirtmek isterim. Çalışmaya devam...)
+
