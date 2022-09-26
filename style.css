@@ -72,6 +72,7 @@ h1 {
 .cerceve {
   display: flex;
   border-radius: 15px;
+  transition: 2s;
 }
 
 .ana {
