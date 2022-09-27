@@ -185,3 +185,14 @@ p {
   font-size: 1.6rem;
   padding: 1rem;
 }
+
+@media (max-width:426px){
+  .ekle{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #pip{
+    display: none;
+  }
+}
