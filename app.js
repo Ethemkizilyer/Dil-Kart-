@@ -23,7 +23,8 @@ left.addEventListener("click", () => {
     asd += 200;
     cerceve.style.transform = `translateX(${asd}px)`;
   }
-
+  console.log("elf", elf);
+console.log("asd",asd)
   sayı.innerText = elf;
   localStorage.setItem("LOCAL", JSON.stringify(local));
 });
@@ -44,6 +45,7 @@ right.addEventListener("click", () => {
 
     sayı.innerText = elf;
   }
+  console.log("elf",elf);
   localStorage.setItem("LOCAL", JSON.stringify(local));
 });
 
